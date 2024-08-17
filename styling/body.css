@@ -1,0 +1,528 @@
+body{
+    padding-top: 135px;
+    padding-left: 113px;
+    padding-right: 140px;
+    padding-bottom: 40px;
+    scroll-behavior: smooth;
+    
+}
+
+.second-page{
+    display: grid;
+    padding-bottom: 68px;
+    grid-template-columns: 1fr 250px 250px;
+    column-gap: 20px;
+}
+
+.uc-if{
+    height: 485px;
+    width: 545px;
+    object-fit: cover;
+}
+
+.uc-im{
+    height: 485px;
+    width: 260.5px; 
+    object-fit: cover;
+}
+
+.left-pics{
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-left{
+    width: 545px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+}
+
+.ssub-left{
+    width: 545px;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    bottom: 0;
+}
+
+.pics-top{
+    position: absolute;
+    background-color: rgb(30,144,255);
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    top: 25px;;
+    left: 17px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.top-text{
+    margin: 0;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.left-title{
+    position: absolute;
+    bottom: 90px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    left: 17px;
+    line-height: 40px;
+    width: 450px;
+    cursor: pointer;
+}
+
+.left-auth{
+    display: flex;
+    padding-left: 17px;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.auth-pics-name{
+    display: flex;
+    align-items: center;
+}
+
+.auth-pics{
+    height: 40px;
+    border-radius: 20px;
+    object-position: center;
+}
+
+.auth-name{
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding-left: 13px;
+    padding-right: 30px;
+}
+
+.time-icn{
+    height: 13px;
+}
+
+.upload-time{
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.6;
+    color: white;
+    padding-left: 4px;
+}
+
+.mid-pics{
+    overflow: hidden;
+    position: relative;
+}
+
+.mid-title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 210px;
+    cursor: pointer;
+    line-height: 35px;
+    position: absolute;
+    bottom: 65px;
+    padding-left: 13px;
+    padding-right: 10px;
+}
+
+.mid-auth-pics-name{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.right-pics{
+    position: relative;
+    overflow: hidden;
+}
+
+.right-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.third-title{
+    display: flex;
+    align-items: center;
+}
+
+.green-icon{
+    height: 17px;
+    width: 17px;
+    background-color: rgb(9, 155, 9);
+    border-radius: 10px;
+}
+
+.green-title{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.third-sub-title{
+    padding-left: 32px;
+    padding-top: 15px;
+    /* font-weight: bold; */
+    opacity: 0.3;
+    font-size: 18px;
+}
+
+.third-infos{
+    display: flex;
+    margin-top: 30px;
+}
+
+.bit-image{
+    width: 450px;  
+    overflow: hidden;  
+    position: relative;
+    margin-right: 25px;
+}
+
+.uc-ib{
+    height: 480px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.inp-user{
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 90px;;
+    color: white;
+    cursor: pointer;
+}
+
+.think-ai{
+    height: 257px;
+    cursor: pointer
+}
+
+.ai-banner{
+    background-color: rgb(30,144,255);
+    color: white;
+    padding-left: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    top: 25px;;
+    left: 17px;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 190px;
+    margin-top: 20px;
+}
+
+.third-mid-title{
+    font-weight: bold;
+    font-size: 23px;
+    width: 200px;
+    line-height: 33px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.third-upload-time{
+    opacity: 0.3;
+    padding-left: 7px;
+    margin: 0px;
+}
+
+.third-time{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.mid-r-sec{
+    height: 108px;
+    cursor: pointer;
+}
+
+.right-third-sec{
+    margin-left: 20px;
+}
+
+.art-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.f-art-sec{
+    margin: 0px;
+    padding-top: 3px;
+    width: 200px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.r-third-time{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+
+.long-line{
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+}
+
+.mid-rr-sec{
+    height: 60px;
+    cursor: pointer;
+}
+
+.uc-ir{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.d-di{
+    cursor:pointer;
+}
+
+.s-art-sec{
+    margin: 0px;
+    margin-top: 20px;
+    width: 200px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.mid-rrr-sec{
+    height: 80px;
+    cursor: pointer;
+}
+
+.fourth-page{
+    margin-top: 80px;
+}
+
+.f-fourth-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.subf-fourth-page{
+    position: relative;
+}
+
+.ud-ir{
+    height: 400px;
+    width: 825px;
+}
+
+.in-boxone{
+    height: 230px;
+    width: 505px;
+    background-color: white; 
+    position: absolute;
+    bottom: 90px;
+    left: 160px; 
+}
+
+.full-stop{
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.book-mark{
+    height: 20px;
+}
+
+.h-b{
+    margin:0;
+    cursor: pointer;
+}
+
+.fourth-auth{
+    color: rgb(18, 158, 18);
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.sub-in{
+    position: absolute;
+    margin: 20px;
+    height: 180px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tit-sec{
+    margin: 0;
+    text-align: center;
+    opacity: 0.8;
+    cursor: pointer;
+    width: 400px;
+}
+
+.book-b{
+    cursor: pointer;
+}
+
+.chain-pics{
+    position: relative;
+}
+
+.sec-layyer{
+    margin-top: 20px;
+}
+
+.left-fourth{
+    width: 700px;
+    margin-left: 50px;
+}
+
+.t-sec{
+    display: flex;
+    margin-top: 50px;
+    margin-right: -50px; 
+}
+
+.mid-line{
+    height:1px;
+    width: 130px;
+    background-color: rgb(218, 218, 218);
+}
+
+.f-art-stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.label-n{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(9, 155, 9);
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.label-val{
+    position: absolute;
+    bottom: 9px;
+    left: 13px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.art-lis{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.read-tit{
+    width: 150px;
+    line-height: 30px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.sub-line{
+    height:1px;
+    width: 230px;
+    background-color: rgb(218, 218, 218);
+}
+
+.uc-social{
+    height: 20px;
+    cursor: pointer;
+}
+
+.social-icn{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ind-sd{
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+
+footer{
+    margin-top: 120px;
+}
+
+.go-to-top{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 20px;
+    border-radius: 25px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+
+@media (max-width: 995px){
+    header{
+        flex: 1;
+    }
+
+    .second-page{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+}
+
+@media (max-width: 501px){
+    header{
+        flex: 1;
+    }
+
+    .second-page{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}
